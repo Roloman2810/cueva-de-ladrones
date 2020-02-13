@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=8707;
+		nextID=8709;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1158.473,98.654152,6095.0278};
-		dir[]={0.43612093,-0.82115519,-0.36843044};
-		up[]={0.62729967,0.57067245,-0.52993649};
-		aside[]={-0.64541054,-1.3608951e-007,-0.76398945};
+		pos[]={1131.0782,110.66373,6421.9175};
+		dir[]={-0.22706877,-0.68838847,0.68905652};
+		up[]={-0.21547437,0.725272,0.65387297};
+		aside[]={0.94986635,-2.7939677e-007,0.31301549};
 	};
 };
 binarizationWanted=0;
@@ -782,7 +782,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=350;
+		items=352;
 		class Item0
 		{
 			dataType="Layer";
@@ -86480,17 +86480,273 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1180.1097,42.14402,6068.2588};
+				position[]={1180.11,42.14402,6068.2588};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="call{""M_Mo_82mm_AT_LG"" createVehicle(getPos IED); deleteVehicle IED; " \n "}";
+				init="call{""M_Mo_82mm_AT_LG"" createVehicle(getPos IED_2); deleteVehicle IED_2; " \n "}";
 				name="IED_2";
 			};
 			id=8706;
 			type="Land_GarbageHeap_01_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Enh_HoldAction";
+					expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=14;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+									};
+								};
+								class Item3
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+								class Item4
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+								class Item5
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item6
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item7
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item8
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item9
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=10;
+									};
+								};
+								class Item10
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1000;
+									};
+								};
+								class Item11
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+								class Item12
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+								class Item13
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item350
+		{
+			dataType="Trigger";
+			position[]={951.24078,43,6299.0522};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{""M_Mo_82mm_AT_LG"" createVehicle(getPos IED); deleteVehicle IED; " \n "}";
+				sizeA=5;
+				sizeB=5;
+				sizeC=2;
+				activationBy="ANYPLAYER";
+			};
+			id=8707;
+			type="EmptyDetector";
+		};
+		class Item351
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={951.52502,43.460262,6299.8389};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{""M_Mo_82mm_AT_LG"" createVehicle(getPos IED_3); deleteVehicle IED_3; " \n "}";
+				name="IED_3";
+			};
+			id=8708;
+			type="Land_GarbageHeap_01_F";
+			atlOffset=0.0069999695;
 			class CustomAttributes
 			{
 				class Attribute0
