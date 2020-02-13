@@ -1,0 +1,26 @@
+﻿enableDebugConsole = 1;
+Author = "A3-Edicion CLS";
+onLoadName = "Cueva de Ladrones";
+onLoadMission = "Campain Ira Djinn";
+OnLoadMissionTime = 1;
+disabledAI = 0;
+loadScreen = "imagen\loadScreen.jpg";
+saving = 0;
+respawn = 1; //Usar 1 en caso de jugar sin respawn, el valor por defecto es 3.
+respawnDelay = 0;
+respawnOnStart = 0;
+respawnTemplates[] = {"ace_spectator"}; //Usar "ace_spectator" si quiere modo espectador, el valor por defecto es "MenuPosition".
+
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 64;
+};
+
+#include "taw_vd\GUI.h"
+
+class CfgFunctions
+{
+	#include "taw_vd\CfgFunctions.hpp"
+};
