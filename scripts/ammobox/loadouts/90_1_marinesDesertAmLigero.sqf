@@ -35,7 +35,7 @@ for "_i" from 1 to 2 do {player addItemToBackpack "ACE_adenosine";};
 for "_i" from 1 to 5 do {player addItemToBackpack "ACE_packingBandage";};
 for "_i" from 1 to 2 do {player addItemToBackpack "rhs_mag_m67";};
 for "_i" from 1 to 3 do {player addItemToBackpack "rhsusf_mag_15Rnd_9x19_JHP";};
-for "_i" from 1 to 6 do {player addItemToBackpack "rhs_200rnd_556x45_M_SAW";};
+for "_i" from 1 to 6 do {player addItemToBackpack "rhsusf_200rnd_556x45_M855_mixed_box";};
 
 
 comment "Add items";
