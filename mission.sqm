@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=318;
+		nextID=325;
 	};
 	class Camera
 	{
-		pos[]={1237.2747,275.40402,5745.5493};
-		dir[]={0.71500474,-0.32112768,-0.62112594};
-		up[]={0.24256651,0.94696832,-0.21071972};
-		aside[]={-0.65585834,-9.1758557e-007,-0.75498062};
+		pos[]={833.4613,54.978184,6313.1699};
+		dir[]={0.27783233,-0.67256355,0.68603474};
+		up[]={0.25250575,0.73993158,0.62348962};
+		aside[]={0.92695266,9.6857548e-007,-0.37540576};
 	};
 };
 binarizationWanted=0;
@@ -159,8 +159,7 @@ addons[]=
 	"A3_Structures_F_Argo_Commercial_Billboards",
 	"ace_slideshow",
 	"cba_modules",
-	"po_factions_eu",
-	"asr_ai3_skills"
+	"po_factions_eu"
 };
 class AddonsMetaData
 {
@@ -1198,7 +1197,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=508;
+		items=507;
 		class Item0
 		{
 			dataType="Layer";
@@ -68487,7 +68486,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={3685.4971,36.213676,3597.2581};
-			angle=1.8912036;
+			angle=1.8912032;
 			class Attributes
 			{
 				name="trgrepostar6_1";
@@ -90501,7 +90500,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={834.73297,43,6318.228};
-			angle=6.0177026;
+			angle=6.0177011;
 			class Attributes
 			{
 				condition="call{SI;}";
@@ -100741,7 +100740,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={1253.11,43.299999,6543.6719};
-			angle=3.4002674;
+			angle=3.4002669;
 			class Attributes
 			{
 				text="show_refineryunits";
@@ -144093,7 +144092,7 @@ class Mission
 			{
 				text="Afirmativo";
 				condition="call{this}";
-				onActivation="call{SI=true}";
+				onActivation="call{SI=true;" \n "hint ""afirmativo activado"";}";
 				sizeA=0;
 				sizeB=0;
 				activationBy="ALPHA";
@@ -144104,89 +144103,18 @@ class Mission
 		class Item506
 		{
 			dataType="Trigger";
-			position[]={554.7854,41.674519,6346.2012};
+			position[]={554.78497,41.674515,6346.2012};
 			class Attributes
 			{
 				text="Negativo";
 				condition="call{this}";
-				onActivation="call{SI=False}";
+				onActivation="call{SI=False;" \n "hint ""negativo activado"";}";
 				sizeA=0;
 				sizeB=0;
-				activationBy="ALPHA";
+				activationBy="BRAVO";
 			};
 			id=10231;
 			type="EmptyDetector";
-		};
-		class Item507
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={839.94,43.001438,6321.8667};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						isPlayable=1;
-					};
-					id=10233;
-					type="B_Soldier_A_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male01ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.02;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=10232;
 		};
 	};
 	class Connections
