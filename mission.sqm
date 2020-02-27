@@ -8,7 +8,7 @@ class EditorData
 	toggles=1154;
 	class ItemIDProvider
 	{
-		nextID=10234;
+		nextID=10236;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=325;
+		nextID=332;
 	};
 	class Camera
 	{
-		pos[]={833.4613,54.978184,6313.1699};
-		dir[]={0.27783233,-0.67256355,0.68603474};
-		up[]={0.25250575,0.73993158,0.62348962};
-		aside[]={0.92695266,9.6857548e-007,-0.37540576};
+		pos[]={838.02069,49.144482,6316.9648};
+		dir[]={-0.09488216,-0.55759799,0.82478088};
+		up[]={-0.063740008,0.83000839,0.55409485};
+		aside[]={0.99353683,2.355082e-007,0.11429055};
 	};
 };
 binarizationWanted=0;
@@ -68486,7 +68486,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={3685.4971,36.213676,3597.2581};
-			angle=1.8912032;
+			angle=1.8912029;
 			class Attributes
 			{
 				name="trgrepostar6_1";
@@ -90500,7 +90500,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={834.73297,43,6318.228};
-			angle=6.0177011;
+			angle=6.0177002;
 			class Attributes
 			{
 				condition="call{SI;}";
@@ -97196,7 +97196,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{[Al_Sashi_lashkit, [""Saludar"", {hint format [""Hola %1!"", name player]}]] remoteExec [""addAction"", 0, true]; " \n "" \n "[Al_Sashi_lashkit, [""Está usted bien?"", {hint ""Seguro, al SW del pueblo sobre la cota hay una gran ROCA, en los alrededores de esta se han divisado multiples tropas del Vietcong.""}]] remoteExec [""addAction"", 0, true]; " \n "" \n "[Al_Sashi_lashkit, [""Está usted bien?"", {hint ""Seguro, al SW del pueblo sobre la cota hay una gran ROCA, en los alrededores de esta se han divisado multiples tropas del Vietcong.""}]] remoteExec [""addAction"", 0, true];" \n "" \n "[Al_Sashi_lashkit, [""Despedirse"", {hint format [""Buena suerte %1!"", name player];tgrbunker=true}]]remoteExec [""addAction"", 0, true]; " \n "}";
+						init="call{[Al_Sashi_lashkit, [""Saludar"", {hint format [""Gracias a Dios, gracias por librarme %1!"",name player]}]] remoteExec [""addAction"", 0, true];  " \n " " \n "[Al_Sashi_lashkit, [""Vamonos?"", {hint format [""No me iré %1! no puedo abandonarlos, no los abandonaré"",name player]}]] remoteExec [""addAction"", 0, true];  " \n " " \n "[Al_Sashi_lashkit, [""De que está hablando?"", {hint format[""El pueblo kuwaiti está siendo diezmado por el enemigo, " \n " están siendo secuestrados y obligados a trabajar en una fábrica de IED. No me iré sin antes lograr que acaben con esa #@%# fábrica.Los malditos utilizan a estas pobres personas para fabricar, " \n "colocar y distribuir su porqueria explosiva en toda la provincia llevandose así la vida de todo aquel que se rehusa hacerlo, " \n "y esto sin contar las inumerables personas que han fallecido en las pruebas de explosión de los artefactos. " \n "Por favor eliminen ésta maldad, por dios se lo suplico %1!"",name player]}]] remoteExec [""addAction"", 0, true]; " \n " " \n "[Al_Sashi_lashkit, [""Aguarde, Lo comunicaré"", {hint format [""Si, si por favor aguardare %1!"",name player,""%1! Déjeme antes decirle que la ubicacion de la misma es al NE de la mezquita a unos 300 o 400 metros de distancia.""]}]]remoteExec [""addAction"", 0, true];" \n "  " \n "[Al_Sashi_lashkit, [""Negativo"", {hint ""No no no, suélteme no me ire sin mi gente, que me suelte le digo.""}]]remoteExec [""addAction"", 0, true]; " \n "" \n "[Al_Sashi_lashkit, [""Afirmativo"", {hint format [""Si, si!!!! gracias %1!"",name player,"" %1!gracias por salvar a esta gente y a esta provincia""]}]]remoteExec [""addAction"", 0, true]; }";
 						name="Al_Sashi_lashkit";
 						class Inventory
 						{
