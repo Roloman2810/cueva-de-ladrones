@@ -8,7 +8,7 @@ class EditorData
 	toggles=1026;
 	class ItemIDProvider
 	{
-		nextID=10250;
+		nextID=10268;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=339;
+		nextID=353;
 	};
 	class Camera
 	{
-		pos[]={3667.2583,41.183434,3448.8318};
-		dir[]={-0.0020232704,-0.67178869,0.74076664};
-		up[]={-0.0018350509,0.74073887,0.67179853};
-		aside[]={1.0000142,-2.161778e-007,0.0027318553};
+		pos[]={3632.5645,66.510651,3464.7964};
+		dir[]={0.27825642,-0.36329046,0.88922089};
+		up[]={0.10851148,0.9316569,0.34676751};
+		aside[]={0.95441341,-4.786998e-007,-0.29865956};
 	};
 };
 binarizationWanted=0;
@@ -1205,7 +1205,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=516;
+		items=519;
 		class Item0
 		{
 			dataType="Layer";
@@ -52443,7 +52443,7 @@ class Mission
 							flags=6;
 							class Attributes
 							{
-								init="call{repostar1 = false; " \n "repostar2 = false; " \n "repostar3 = false;" \n "repostar4 = false; " \n "repostar5 = false; " \n "repostar6 = false;  " \n "" \n "this disableAI ""MOVE""; this setSpeaker ""novoice"";" \n " " \n "[Ingeniero, [""Saludar"", {hint format [""Hola %1!"", name player]}]]  " \n "  remoteExec [""addAction"", 0, true];  " \n " " \n "remoteExec [""addAction"", 0, true];   " \n "  " \n "this addAction    " \n " [   " \n "   ""REPOSTAR UH-60M Black Hawk(1)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostar1 = true   " \n "     }   " \n " ];  " \n "  " \n " remoteExec [""addAction"", 0, true];   " \n "  " \n "this addAction    " \n " [   " \n "   ""REPOSTAR UH-60M Black Hawk(2)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostar2 = true   " \n "     }   " \n " ];  " \n "  " \n " remoteExec [""addAction"", 0, true];   " \n "  " \n "this addAction    " \n " [   " \n "   ""REPOSTAR UH-1H Iroqois(1)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostar3 = true   " \n "     }   " \n " ]; " \n " " \n " remoteExec [""addAction"", 0, true];" \n "" \n "this addAction    " \n " [   " \n "   ""REPOSTAR UH-1H Iroqois(2)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostar4 = true   " \n "     }   " \n " ]; " \n " " \n "remoteExec [""addAction"", 0, true];" \n "" \n "this addAction    " \n " [   " \n "   ""REPOSTAR AH-1Z Cobra(1)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostar5 = true   " \n "     }   " \n " ]; " \n " " \n " remoteExec [""addAction"", 0, true];" \n "" \n "this addAction    " \n " [   " \n "   ""REPOSTAR AH-1Z Cobra(2)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostar6 = true   " \n "     }   " \n " ]; " \n " " \n " remoteExec [""addAction"", 0, true];}";
+								init="call{repostar1 = false; " \n "repostar2 = false; " \n "repostar3 = false;" \n "repostar4 = false; " \n "repostar5 = false; " \n "repostar6 = false;  " \n "" \n "this disableAI ""MOVE""; this setSpeaker ""novoice"";" \n " " \n "this addAction    " \n " [   " \n "   ""REPOSTAR UH-60M Black Hawk(1)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostar1 = true   " \n "     }   " \n " ];  " \n "  " \n " remoteExec [""addAction"", 0, true];   " \n "  " \n "this addAction    " \n " [   " \n "   ""REPOSTAR UH-60M Black Hawk(2)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostar2 = true   " \n "     }   " \n " ];  " \n "  " \n " remoteExec [""addAction"", 0, true];   " \n "  " \n "this addAction    " \n " [   " \n "   ""REPOSTAR UH-1H Iroqois(1)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostar3 = true   " \n "     }   " \n " ]; " \n " " \n " remoteExec [""addAction"", 0, true];" \n "" \n "this addAction    " \n " [   " \n "   ""REPOSTAR UH-1H Iroqois(2)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostar4 = true   " \n "     }   " \n " ]; " \n " " \n "remoteExec [""addAction"", 0, true];" \n "" \n "this addAction    " \n " [   " \n "   ""REPOSTAR AH-1Z Cobra(1)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostar5 = true   " \n "     }   " \n " ]; " \n " " \n " remoteExec [""addAction"", 0, true];" \n "" \n "this addAction    " \n " [   " \n "   ""REPOSTAR AH-1Z Cobra(2)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostar6 = true   " \n "     }   " \n " ]; " \n " " \n " remoteExec [""addAction"", 0, true];}";
 								name="Ingeniero";
 								stance="Up";
 								class Inventory
@@ -52566,7 +52566,7 @@ class Mission
 											};
 											class value
 											{
-												items=14;
+												items=13;
 												class Item0
 												{
 													class data
@@ -52747,20 +52747,6 @@ class Mission
 															};
 														};
 														value=1;
-													};
-												};
-												class Item13
-												{
-													class data
-													{
-														class type
-														{
-															type[]=
-															{
-																"STRING"
-															};
-														};
-														value="";
 													};
 												};
 											};
@@ -57573,7 +57559,7 @@ class Mission
 							flags=6;
 							class Attributes
 							{
-								init="call{repostara = false; " \n "repostarb = false; " \n "repostarc = false;" \n "repostard = false; " \n "repostare = false; " \n "repostarf = false;  " \n "" \n "this disableAI ""MOVE""; this setSpeaker ""novoice"";" \n " " \n "[Ingeniero, [""Saludar"", {hint format [""Hola %1!"", name player]}]]  " \n "  remoteExec [""addAction"", 0, true];  " \n " " \n "remoteExec [""addAction"", 0, true];   " \n "  " \n "this addAction    " \n " [   " \n "   ""REPOSTAR M1A1 ABRAMS(1)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostara = true   " \n "     }   " \n " ];  " \n "  " \n " remoteExec [""addAction"", 0, true];   " \n "  " \n "this addAction    " \n " [   " \n "   ""REPOSTAR M1A1 ABRAMS(2)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostarb = true   " \n "     }   " \n " ];  " \n "  " \n " remoteExec [""addAction"", 0, true];   " \n "  " \n "this addAction    " \n " [   " \n "   ""REPOSTAR M2A3 BRADLEY(1)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostarc = true   " \n "     }   " \n " ]; " \n " " \n " remoteExec [""addAction"", 0, true];" \n "" \n "this addAction    " \n " [   " \n "   ""REPOSTAR M2A3 BRADLEY(2)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostard = true   " \n "     }   " \n " ]; " \n " " \n "remoteExec [""addAction"", 0, true];" \n "" \n "this addAction    " \n " [   " \n "   ""REPOSTAR M113 IFV M2(1)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostare = true   " \n "     }   " \n " ]; " \n " " \n " remoteExec [""addAction"", 0, true];" \n "" \n "this addAction    " \n " [   " \n "   ""REPOSTAR M113 IFV M2(2)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostarf = true   " \n "     }   " \n " ]; " \n " " \n " remoteExec [""addAction"", 0, true];}";
+								init="call{repostara = false; " \n "repostarb = false; " \n "repostarc = false;" \n "repostard = false; " \n "repostare = false; " \n "repostarf = false;  " \n "" \n "this disableAI ""MOVE""; this setSpeaker ""novoice"";" \n " " \n "this addAction    " \n " [   " \n "   ""REPOSTAR M1A1 ABRAMS(1)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostara = true   " \n "     }   " \n " ];  " \n "  " \n " remoteExec [""addAction"", 0, true];   " \n "  " \n "this addAction    " \n " [   " \n "   ""REPOSTAR M1A1 ABRAMS(2)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostarb = true   " \n "     }   " \n " ];  " \n "  " \n " remoteExec [""addAction"", 0, true];   " \n "  " \n "this addAction    " \n " [   " \n "   ""REPOSTAR M2A3 BRADLEY(1)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostarc = true   " \n "     }   " \n " ]; " \n " " \n " remoteExec [""addAction"", 0, true];" \n "" \n "this addAction    " \n " [   " \n "   ""REPOSTAR M2A3 BRADLEY(2)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostard = true   " \n "     }   " \n " ]; " \n " " \n "remoteExec [""addAction"", 0, true];" \n "" \n "this addAction    " \n " [   " \n "   ""REPOSTAR M113 IFV M2(1)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostare = true   " \n "     }   " \n " ]; " \n " " \n " remoteExec [""addAction"", 0, true];" \n "" \n "this addAction    " \n " [   " \n "   ""REPOSTAR M113 IFV M2(2)"",   " \n "     { hint format    " \n "       [   " \n "         ""Solo tomará unos minutos aguarde %1!"",  name player   " \n "       ],repostarf = true   " \n "     }   " \n " ]; " \n " " \n " remoteExec [""addAction"", 0, true];}";
 								name="Ingeniero_1";
 								stance="Up";
 								class Inventory
@@ -57696,7 +57682,7 @@ class Mission
 											};
 											class value
 											{
-												items=14;
+												items=13;
 												class Item0
 												{
 													class data
@@ -57877,20 +57863,6 @@ class Mission
 															};
 														};
 														value=1;
-													};
-												};
-												class Item13
-												{
-													class data
-													{
-														class type
-														{
-															type[]=
-															{
-																"STRING"
-															};
-														};
-														value="";
 													};
 												};
 											};
@@ -65096,7 +65068,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={3608,36.157204,3463.4409};
-			angle=5.2997961;
+			angle=5.2997971;
 			class Attributes
 			{
 				name="trg_heal1_1";
@@ -65144,12 +65116,12 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={3685.1799,36.217491,3596.9561};
-			angle=1.8899113;
+			angle=1.8899122;
 			class Attributes
 			{
 				name="trgrepostar1_1";
 				text="Abrams 1";
-				condition="call{repostara;}";
+				condition="call{repostara}";
 				onActivation="call{A1_1 setFuel 1;" \n "A1_1 setVehicleAmmo 1;" \n "hint format [""He terminado, ya puede partir %1!"", name player];}";
 				sizeA=14.17;
 				sizeB=14.207;
@@ -65166,7 +65138,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={3685.2319,36.215351,3597.157};
-			angle=1.8899113;
+			angle=1.8899111;
 			class Attributes
 			{
 				name="trgrepostar2_1";
@@ -65188,7 +65160,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={3685.2439,36.213833,3597.3059};
-			angle=1.8912029;
+			angle=1.8912027;
 			class Attributes
 			{
 				name="trgrepostar3_1";
@@ -67549,7 +67521,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={3685.376,36.217506,3596.905};
-			angle=1.8899113;
+			angle=1.8899111;
 			class Attributes
 			{
 				name="trgrepostar4_1";
@@ -67571,7 +67543,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={3685.4839,36.21553,3597.0759};
-			angle=1.8899113;
+			angle=1.8899111;
 			class Attributes
 			{
 				name="trgrepostar5_1";
@@ -67593,7 +67565,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={3685.4971,36.213676,3597.2581};
-			angle=1.8912029;
+			angle=1.8912027;
 			class Attributes
 			{
 				name="trgrepostar6_1";
@@ -140005,7 +139977,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={386.95999,41.341087,4361.2168};
-			angle=3.1504765;
+			angle=3.1504762;
 			class Attributes
 			{
 				condition="call{({alive _x}count units wave1 <= 3)}";
@@ -140169,7 +140141,6 @@ class Mission
 			};
 			id=10183;
 			type="ModuleShowHide_F";
-			atlOffset=0.23292542;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -143710,6 +143681,57 @@ class Mission
 				};
 				nAttributes=4;
 			};
+		};
+		class Item516
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3704.5181,37.980511,3599.3022};
+				angles[]={0,3.4910514,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				textures="White";
+			};
+			id=10260;
+			type="B_G_Van_01_fuel_F";
+		};
+		class Item517
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3708.4897,37.983501,3597.7129};
+				angles[]={0,3.4910514,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				textures="White";
+			};
+			id=10264;
+			type="B_G_Van_01_fuel_F";
+		};
+		class Item518
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3712.6746,37.987778,3595.9165};
+				angles[]={0,3.4910514,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				textures="White";
+			};
+			id=10267;
+			type="B_G_Van_01_fuel_F";
 		};
 	};
 	class Connections
